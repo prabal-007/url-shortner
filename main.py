@@ -12,7 +12,6 @@ def shot():
     var2 = StringVar()
     var2.set(x)
     Entry(root, textvariable=var2, font='arial 15 bold',width='30', relief=FLAT).pack(pady=10)
-    print(x)
 
 frm1 = Frame(root)
 Label(frm1, text='Enter Link ',font='arial 15 bold', relief=FLAT).pack(side=LEFT)
