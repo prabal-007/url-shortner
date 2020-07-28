@@ -16,7 +16,7 @@ def shot():
     var2.set(x)
     frm2 = Frame(root)
     Entry(frm2, textvariable=var2, font='arial 15 bold',width='30', relief=FLAT).pack(side=LEFT,padx=2)
-    Button(frm2, text='copy',font='arial',command=copy).pack(side=RIGHT,padx=5)
+    Button(frm2, text='copy',font='arial 10',command=copy).pack(side=RIGHT,padx=5)
     frm2.pack(pady=10)
 def paste():
     text = clipboard.paste()
